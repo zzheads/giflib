@@ -22,3 +22,7 @@ repositories {
 dependencies {
         compile("org.springframework.boot:spring-boot-starter-thymeleaf")
 }
+
+task stage {
+    dependsOn build
+}
